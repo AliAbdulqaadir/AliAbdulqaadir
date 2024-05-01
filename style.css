@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    font-family: "Gill Sans", sans-serif;
+    margin: 0;
+    border-top: 10px solid #014B62;
+    border-bottom: 10px solid #014B62;
+
+}
+button{
+    background-color: hotpink;
+}
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 5px;
+
+}
+header{
+    min-height: 50%;
+}
+.background { 
+    height: 100px; 
+    width: 100px; 
+    background-color: skyblue; 
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+h1, h2{
+	 font-family: 'Oswald', sans-serif;
+    color: darkblue;
+}
+
+h2 { 
+    color: white;
+    background-color:  #AF4742; 
+    border-bottom: solid 6px black;
+    padding: 2px;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+h3{
+    color: black;
+}
+.fa{
+    font-size: 3em;
+}
+.logo{
+   margin: 0 auto;
+   display:block;
+ 
+}
+.circle-image{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid black;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+a:link{
+    color: #AF4742;
+}
+a:visited{
+    color: #AF4742;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+}
+
+
+nav{
+    background-color: #AF4742;
+    border-top: 2px #302E2E solid;
+    border-bottom: 2px #302E2E  solid;
+    padding: 5px;
+
+}
+
+
+/* Navigation Bar */
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 14px;
+}
+
+nav li{
+    display: inline;
+}
+nav a{
+   text-decoration: none;
+   padding-right: 10px;
+}
+nav a:link{
+    color: white;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: forestgreen;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+#home-hero{
+    background-image: url(images/football.jpg);
+    height: 300px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+#home-hero h1{
+    text-align: center;
+    color: #FF00FE;
+    text-shadow: 2px 2px 2px black; 
+    margin: 0;
+    padding: 10px;
+    
+} 
+.home-hero h1{
+    font-family: 'Dancing Script' cursive;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.home-photo{
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin: 50px 0 10px 20px;
+    border: greenyellow;
+}
+footer{
+   clear: both;
+   background-color: #302E2E;
+   color: white;
+
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+font-size: 4em;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+font-size: 1.5em;
+}
+}
+/*
