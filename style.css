@@ -41,6 +41,7 @@ h2 {
     background-color:  #AF4742; 
     border-bottom: solid 6px black;
     padding: 2px;
+    margin-top: 20px;
 }
 h1{
     text-align: center;
@@ -67,7 +68,7 @@ h3{
 
 
 }
-
+            /* my nav buttons when you interact*/
 a:link{
     color: #AF4742;
 }
@@ -79,6 +80,10 @@ a:hover{
 }
 a:active{
     color: black;
+}
+.resume{
+    background-color: #DDDDDD;
+    padding: 30px;
 }
 
 
@@ -141,6 +146,7 @@ nav a:active {
     height: auto;
     margin: 0 auto !important;
     display: block !important;
+    
 }
 
 #home-hero{
@@ -176,9 +182,9 @@ nav a:active {
     border: greenyellow;
 }
 footer{
-   clear: both;
-   background-color: #302E2E;
-   color: white;
+    clear: both;
+    background-color: #302E2E;
+    color: white;
 
 }
 
